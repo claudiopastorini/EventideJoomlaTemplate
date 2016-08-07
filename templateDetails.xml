@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+	<name>Eventide</name>
+	<creationDate>2016-08-06</creationDate>
+	<author>Claudio Pastorini</author>
+	<authorEmail>pastorini.claudio@gmail.com</authorEmail>
+	<authorUrl>http://www.example.com</authorUrl>
+	<copyright>Claudio Pastorini 2016</copyright>
+	<license>MIT</license>
+	<version>0.1.0</version>
+	<description>This template is based on the work of Matthew Hartman (http://matthewhartman.com.au/) downloaded from https://gumroad.com/l/free-one-page-event-html-css-template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+	</positions>
+</extension>
