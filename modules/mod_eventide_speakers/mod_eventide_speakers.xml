@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Eventide - Speakers</name>
+    <author>Claudio Pastorini</author>
+    <version>0.1.0</version>
+    <description>A module that allows to add speakers to the site for Eventide template.</description>
+    <files>
+        <filename module="mod_eventide_speakers">mod_eventide_speakers.php</filename>
+        <filename>mod_eventide_speakers.xml</filename>
+        <filename>form_speaker.xml</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field 
+                    name="title" 
+                    type="text" 
+                    default="Great speakers" 
+                    label="Title" 
+                    description="The title to show" />
+
+                <field 
+                    name="subtitle" 
+                    type="text" 
+                    default="These speakers will come to our great event!" 
+                    label="Subtitle" 
+                    description="The subtitle to show" />
+
+                <field 
+                    name="speakers" 
+                    type="subform"
+                    formsource="modules/mod_eventide_speakers/form_speaker.xml" 
+                    multiple="true"
+                    min="0"
+                    max="1000"
+                    groupByFieldset="true"
+                    label="Speakers" 
+                    description="Subform Field for speakers" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

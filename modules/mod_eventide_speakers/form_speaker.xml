@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form enctype="multipart/form-data">
+	<fieldset name="profile" label="">
+		<field 
+			name="name" 
+			type="text" 
+			label="Name" 
+			description="The speaker's name" />
+
+		<field 
+			name="description" 
+			type="textarea" 
+			cols="40" 
+			rows="8" 
+			label="Description" 
+			description="The speaker's description" />
+
+		<field 
+			name="siteURL" 
+			type="url" 
+			size="10" 
+			label="Site" 
+			description="The URL to the speaker's site" />
+
+		<field 
+			name="photo" 
+			type="media" 
+			directory="" 
+			label="Photo" 
+			description="The speaker's photo" />
+
+	</fieldset>
+</form>
