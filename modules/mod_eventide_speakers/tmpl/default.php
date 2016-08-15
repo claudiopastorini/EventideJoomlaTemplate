@@ -6,7 +6,7 @@ defined('_JEXEC') or die; ?>
 	<div class="text-center pad-top-20">
 		<h2 class="h2 uppercase"><?php echo $title; ?></h2>
 		<p class="fs-4">
-		<?php echo $subtitle; ?>
+			<?php echo $subtitle; ?>
 		</p>
 	</div>
 	<ul class="event-speakers clear">

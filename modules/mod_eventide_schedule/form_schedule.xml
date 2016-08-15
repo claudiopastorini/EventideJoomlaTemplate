@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form enctype="multipart/form-data">
+	<fieldset name="profile" label="">
+		<field 
+			name="place" 
+			type="text" 
+			label="Place" 
+			description="The event's place" />
+		
+		<field 
+			name="date" 
+			type="text" 
+			label="Start date" 
+			description="The event's start date" 
+			default="%d/%m/%Y" />
+
+		<field 
+			name="start_time" 
+			type="text" 
+			label="Start time" 
+			description="The event's start time" 
+			default="%k:%M" />
+
+		<field 
+			name="end_time" 
+			type="text" 
+			label="End time" 
+			description="The event's end time" 
+			default="%k:%M" />
+		
+		<field 
+			name="description" 
+			type="textarea" 
+			cols="40" 
+			rows="8" 
+			label="Description" 
+			description="The event's description" />
+	</fieldset>
+</form>

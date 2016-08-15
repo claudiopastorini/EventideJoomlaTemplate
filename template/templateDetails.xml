@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="template">
 	<name>Eventide</name>
-	<creationDate>2016-08-06</creationDate>
+	<creationDate>06/08/2016</creationDate>
 	<author>Claudio Pastorini</author>
 	<authorEmail>pastorini.claudio@gmail.com</authorEmail>
 	<authorUrl>http://www.example.com</authorUrl>
@@ -17,14 +17,8 @@
 		<folder>js</folder>
 	</files>
 	<positions>
-		<position>breadcrumb</position>
-		<position>left</position>
-		<position>right</position>
-		<position>top</position>
-		<position>user1</position>
-		<position>user2</position>
-		<position>user3</position>
-		<position>user4</position>
+		<position>position2</position>
+		<position>position3</position>
 		<position>footer</position>
 	</positions>
 </extension>

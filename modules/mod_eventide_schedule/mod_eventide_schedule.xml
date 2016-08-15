@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1.0" client="site" method="upgrade">
-    <name>Eventide - Speakers</name>
-    <creationDate>06/08/2016</creationDate>
+    <name>Eventide - Schedule</name>
+    <creationDate>12/08/2016</creationDate>
     <author>Claudio Pastorini</author>
     <authorEmail>pastorini.claudio@gmail.com</authorEmail>
     <authorUrl>http://www.example.com</authorUrl>
     <copyright>Claudio Pastorini 2016</copyright>
     <license>MIT</license>
     <version>0.1.0</version>
-    <description>This module allows to add speakers to the site for Eventide template.</description>
+    <description>This module allows to add schedule to the site for Eventide template.</description>
     <files>
-        <filename module="mod_eventide_speakers">mod_eventide_speakers.php</filename>
-        <filename>mod_eventide_speakers.xml</filename>
-        <filename>form_speaker.xml</filename>
+        <filename module="mod_eventide_schedule">mod_eventide_schedule.php</filename>
+        <filename>mod_eventide_schedule.xml</filename>
+        <filename>form_schedule.xml</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
@@ -24,27 +24,36 @@
                 <field 
                     name="title" 
                     type="text" 
-                    default="Great speakers" 
+                    default="Event schedule" 
                     label="Title" 
                     description="The title to show" />
 
                 <field 
                     name="subtitle" 
                     type="text" 
-                    default="These speakers will come to our great event!" 
+                    default="This year only fantastic events for you!"
                     label="Subtitle" 
                     description="The subtitle to show" />
 
                 <field 
-                    name="speakers" 
+                    name="body" 
+                    type="textarea" 
+                    cols="40" 
+                    rows="8" 
+                    label="Body" 
+                    default="Bla bla bla"
+                    description="The schedule body" />
+
+                <field 
+                    name="schedule" 
                     type="subform"
-                    formsource="modules/mod_eventide_speakers/form_speaker.xml" 
+                    formsource="modules/mod_eventide_schedule/form_schedule.xml" 
                     multiple="true"
                     min="0"
                     max="1000"
                     groupByFieldset="true"
-                    label="Speakers" 
-                    description="Subform Field for speakers" />
+                    label="Schedule" 
+                    description="Subform Field for schedule" />
             </fieldset>
         </fields>
     </config>
