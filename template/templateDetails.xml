@@ -17,8 +17,9 @@
 		<folder>js</folder>
 	</files>
 	<positions>
-		<position>position2</position>
-		<position>position3</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
 		<position>footer</position>
 	</positions>
 </extension>

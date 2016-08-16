@@ -157,38 +157,11 @@
     </div>
   </div>
 
-  <hr class="hr">
+  <jdoc:include type="modules" name="position-2" /> 
 
-  <jdoc:include type="modules" name="position2" /> 
+  <jdoc:include type="modules" name="position-3" />
 
-  <hr class="hr">
-
-  <jdoc:include type="modules" name="position3" />
-
-  <div class="promotional-block container">
-    <div class="clear">
-      <div class="col-6-l">
-        <div class="video-responsive">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/mSdXHsPkg5w" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-5-l right-l pad-top-30 pad-bottom-30 pad-top-0-l pad-bottom-0-l">
-        <h2 class="uppercase pad-bottom-10">Promotional video</h2>
-        <p class="fs-4">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <p>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident.
-        </p>
-        <p>
-          <a class="icon icon-right arrow-right uppercase" href="#">Youtube channel</a>
-        </p>
-      </div>
-    </div>
-  </div>
-
+  <jdoc:include type="modules" name="position-4" />
 
   <div class="gallery-block content-block container pad-top-50-m pad-bottom-50-m">
     <div class="clear">
