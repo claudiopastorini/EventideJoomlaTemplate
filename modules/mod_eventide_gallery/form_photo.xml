@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form enctype="multipart/form-data">
+	<fieldset name="photo" label="">
+		<field 
+			name="title" 
+			type="text" 
+			label="Title" 
+			description="The photo's title" />
+
+		<field 
+			name="photo" 
+			type="media" 
+			directory="" 
+			label="Photo" 
+			description="The photo" />
+
+	</fieldset>
+</form>

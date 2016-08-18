@@ -163,49 +163,6 @@
 
   <jdoc:include type="modules" name="position-4" />
 
-  <div class="gallery-block content-block container pad-top-50-m pad-bottom-50-m">
-    <div class="clear">
-      <div class="col-5-l">
-        <h2 class="uppercase">Event gallery</h2>
-        <p class="fs-4">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <p>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident.
-        </p>
-        <p>
-          <a class="icon icon-right arrow-right uppercase" href="#">Flickr stream</a>
-        </p>
-      </div>
-      <div class="col-6-l right-l pad-top-20 pad-bottom-20 pad-top-0-m pad-bottom-0-m">
-        <div class="carousel slide" id="carousel-gallery">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-gallery" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-gallery" data-slide-to="1"></li>
-            <li data-target="#carousel-gallery" data-slide-to="2"></li>
-            <li data-target="#carousel-gallery" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/conference-image-1.jpg" alt="Conference">
-            </div>
-            <div class="item">
-              <img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/conference-image-2.jpg" alt="Conference">
-            </div>
-            <div class="item">
-              <img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/conference-image-3.jpg" alt="Conference">
-            </div>
-            <div class="item">
-              <img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/conference-image-2.jpg" alt="Conference">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="grey-row pad-top-60 pad-bottom-60">
     <div class="register-block pad-top-20 pad-bottom-20 container text-center">
       <h2 class="uppercase pad-bottom-10">The most simpliest way to launch your event</h2>
@@ -256,7 +213,6 @@
     </ul>
   </div>
 
-
   <div class="event-location-block content-block">
     <h2 class="sr">Event Location</h2>
 
@@ -276,9 +232,7 @@
       <div id="google-map" class="google-map"></div>
     </div>
   </div>
-
 </div>
-
 
 <div class="footer-block">
 
