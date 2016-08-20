@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Eventide - Text</name>
+    <creationDate>18/08/2016</creationDate>
+    <author>Claudio Pastorini</author>
+    <authorEmail>pastorini.claudio@gmail.com</authorEmail>
+    <authorUrl>http://www.example.com</authorUrl>
+    <copyright>Claudio Pastorini 2016</copyright>
+    <license>MIT</license>
+    <version>0.1.0</version>
+    <description>This module allows to add a text to the site for Eventide template.</description>
+    <files>
+        <filename module="mod_eventide_text">mod_eventide_text.php</filename>
+        <filename>mod_eventide_text.xml</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field 
+                    name="title" 
+                    type="text" 
+                    hint="Main goal of the event" 
+                    label="Title" 
+                    description="The title to show" />
+
+                <field 
+                    name="subtitle" 
+                    type="text" 
+                    hint="This fantastic event is only for you!"
+                    label="Subtitle" 
+                    description="The subtitle to show" />
+
+                <field 
+                    name="body" 
+                    type="textarea" 
+                    cols="40" 
+                    rows="8" 
+                    label="Body" 
+                    hint="Bla bla bla"
+                    description="The text body" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
