@@ -85,7 +85,7 @@
       quis nostrud.
     </p>
     <div class="banner-buttons">
-      <a class="button button-primary" href="#"><span class="icon icon-right chevron-right">Register</span></a>
+      <a class="button button-primary" href="#register"><span class="icon icon-right chevron-right">Register</span></a>
       <a class="button" href="#">Discover</a>
     </div>
   </div>
@@ -93,69 +93,7 @@
 
 
 <div class="content">
-  <div class="introduction-block pad-top-60 pad-bottom-60 container">
-    <div class="clear pad-top-20 pad-bottom-20">
-      <div class="col-6-l">
-        <div class="col-11 no-float no-padding">
-          <h2 class="uppercase pad-bottom-10">Main goals of the event</h2>
-          <p class="fs-4">
-            Design must be functional, and functionality must be translated into visual aesthetics without any reliance on gimmicks that have to be explained.
-          </p>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident.
-          </p>
-        </div>
-      </div>
-      <div class="col-6-l">
-        <div class="tabs tabs-primary">
-          <ul class="tabs-list clear">
-            <li class="col-6-m block text-center no-padding tab active"><a href="#learning-objective" data-toggle="tab">Learning Objective</a></li>
-            <li class="col-6-m block text-center no-padding tab"><a href="#target-audience" data-toggle="tab">Target Audience</a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane active" id="learning-objective">
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odot aut fugit, sed quia consequunur magni dolores eos.
-              </p>
-              <div class="clear">
-                <div class="col-7-m">
-                  <ul class="list">
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>Lorem ipsum dolor sit amet</li>
-                  </ul>
-                </div>
-                <div class="objective">
-                  <img class="cloud" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/cloud.svg" alt="Cloud">
-                  <img class="objective-img heart heart-1" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/heart.svg" alt="Heart">
-                  <img class="objective-img images" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/images.svg" alt="Images">
-                  <img class="heart heart-2" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/heart.svg" alt="Heart">
-                  <img class="heart heart-3" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/heart.svg" alt="Heart">
-                  <img class="objective-img video" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/video.svg" alt="Video">
-                  <img class="heart heart-4" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/heart.svg" alt="Heart">
-                  <img class="heart heart-5" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/heart.svg" alt="Heart">
-                  <img class="objective-img music" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/music.svg" alt="Music">
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane" id="target-audience">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <jdoc:include type="modules" name="position-1" /> 
 
   <jdoc:include type="modules" name="position-2" /> 
 
@@ -163,44 +101,7 @@
 
   <jdoc:include type="modules" name="position-4" />
 
-  <div class="grey-row pad-top-60 pad-bottom-60">
-    <div class="register-block pad-top-20 pad-bottom-20 container text-center">
-      <h2 class="uppercase pad-bottom-10">The most simpliest way to launch your event</h2>
-      <div class="col-10-m no-float-m col-8-l no-float-l center">
-        <p class="fs-4">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-      <form action="" class="register-form col-10-l col-8-xl no-float center">
-        <fieldset class="register-form-wrap">
-          <legend class="sr">Register your event</legend>
-          <div class="clear">
-            <div class="col-3-m pad-top-10 pad-bottom-10 pad-top-0-m pad-bottom-0-m">
-              <label for="name" class="sr">Full Name</label>
-              <input type="text" class="field" name="name" id="name" placeholder="Full Name">
-            </div>
-            <div class="col-3-m pad-top-10 pad-bottom-10 pad-top-0-m pad-bottom-0-m">
-              <label for="email" class="sr">Email Address</label>
-              <input type="email" class="field" name="email" id="email" placeholder="Email Address">
-            </div>
-            <div class="col-3-m pad-top-10 pad-bottom-10 pad-top-0-m pad-bottom-0-m">
-              <label for="plan" class="sr">Event Plan</label>
-              <span class="select">
-                <select name="plan" id="plan">
-                  <option value="">Select plan</option>
-                  <option value="plan-1">Basic</option>
-                </select>
-              </span>
-            </div>
-            <div class="col-3-m pad-top-10 pad-bottom-10 pad-top-0-m pad-bottom-0-m">
-              <button class="button button-primary button-register"><span class="icon icon-right chevron-right">Register</span></button>
-            </div>
-          </div>
-        </fieldset>
-      </form>
-    </div>
-  </div>
+  <jdoc:include type="modules" name="position-5" />
 
   <div class="event-sponsors-block pad-top-60 pad-bottom-60 container text-center">
     <h2 class="uppercase none-l">Event Sponsors</h2>
@@ -213,25 +114,8 @@
     </ul>
   </div>
 
-  <div class="event-location-block content-block">
-    <h2 class="sr">Event Location</h2>
-
-    <div id="map" class="map">
-    <div class="location-box-container">
-        <div class="location-box pad-20">
-          <h2 class="fs-6 strong">Sydney Exhibition Centre</h2>
-          <address class="location">
-            Glebe Island - 41 James Craig Road <br>
-            Rozelle NSW 2039
-          </address>
-          <span class="block text-right">
-            <a class="icon icon-right arrow-right uppercase" href="#">Get directions</a>
-          </span>
-        </div>
-      </div>
-      <div id="google-map" class="google-map"></div>
-    </div>
-  </div>
+  <jdoc:include type="modules" name="position-7" />
+  
 </div>
 
 <div class="footer-block">

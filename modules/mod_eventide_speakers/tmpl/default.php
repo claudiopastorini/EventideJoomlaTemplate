@@ -1,7 +1,7 @@
 <?php 
 // No direct access
 defined('_JEXEC') or die; ?>
-
+<hr class="hr">
 <div class="speakers-block pad-top-60 pad-bottom-60 container">
 	<div class="text-center pad-top-20">
 		<h2 class="h2 uppercase"><?php echo $title; ?></h2>
@@ -25,4 +25,5 @@ defined('_JEXEC') or die; ?>
 		?>
 	</ul>
 </div>
+<hr class="hr">
 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Eventide - Registration</name>
+    <creationDate>18/08/2016</creationDate>
+    <author>Claudio Pastorini</author>
+    <authorEmail>pastorini.claudio@gmail.com</authorEmail>
+    <authorUrl>http://www.example.com</authorUrl>
+    <copyright>Claudio Pastorini 2016</copyright>
+    <license>MIT</license>
+    <version>0.1.0</version>
+    <description>This module allows to add a simple registration form to the site for Eventide template.</description>
+    <files>
+        <filename module="mod_eventide_registration">mod_eventide_registration.php</filename>
+        <filename>mod_eventide_registration.xml</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field 
+                    name="title" 
+                    type="text" 
+                    hint="The most simpliest way to launch your event" 
+                    label="Title" 
+                    description="The title to show" />
+
+                <field 
+                    name="body" 
+                    type="textarea" 
+                    cols="40" 
+                    rows="8" 
+                    label="Body" 
+                    hint="Bla bla bla"
+                    description="The registration body to show" />
+
+                <field 
+                    name="legend" 
+                    type="text" 
+                    label="Legend" 
+                    hint="Register your event"
+                    description="The legend of registration form" />
+
+                <field 
+                    name="post_url" 
+                    type="url" 
+                    size="10" 
+                    label="POST URL" 
+                    hint="www.example.com/registration.php"
+                    description="The URL where POST form" />
+
+                <field 
+                    name="button_text" 
+                    type="text"
+                    hint="Register"
+                    label="Button text" 
+                    description="The text of the form" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
