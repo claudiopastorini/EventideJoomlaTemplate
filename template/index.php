@@ -103,16 +103,7 @@
 
   <jdoc:include type="modules" name="position-5" />
 
-  <div class="event-sponsors-block pad-top-60 pad-bottom-60 container text-center">
-    <h2 class="uppercase none-l">Event Sponsors</h2>
-    <ul class="event-sponsor-list">
-      <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l"><a href="#" class="sponsor sponsor-facebook"><span class="sr">Facebook</span></a></li>
-      <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l"><a href="#" class="sponsor sponsor-jquery"><span class="sr">jQuery</span></a></li>
-      <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l"><a href="#" class="sponsor sponsor-envato"><span class="sr">Envato</span></a></li>
-      <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l"><a href="#" class="sponsor sponsor-tumblr"><span class="sr">Tumblr</span></a></li>
-      <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l"><a href="#" class="sponsor sponsor-atlassian"><span class="sr">Atlassian</span></a></li>
-    </ul>
-  </div>
+  <jdoc:include type="modules" name="position-6" />
 
   <jdoc:include type="modules" name="position-7" />
   

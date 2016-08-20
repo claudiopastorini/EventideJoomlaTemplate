@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form enctype="multipart/form-data">
+	<fieldset name="photo" label="">
+		<field 
+			name="name" 
+			type="text" 
+			label="Title" 
+			description="The sponsor's name" />
+
+		<field 
+			name="link" 
+			type="url" 
+			size="10" 
+			label="Link" 
+			description="The URL to the sponsor's site" />
+
+		<field 
+			name="logo" 
+			type="media" 
+			directory="" 
+			label="Logo" 
+			description="The sponsor's logo" />
+
+	</fieldset>
+</form>
