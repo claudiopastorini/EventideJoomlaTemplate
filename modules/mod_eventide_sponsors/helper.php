@@ -2,6 +2,6 @@
 /**
  * Helper class for Eventide - Sponsors module
  */
-class ModEventideGalleryHelper
+class ModEventideSponsorsHelper
 {
 }

@@ -106,6 +106,12 @@
   <jdoc:include type="modules" name="position-6" />
 
   <jdoc:include type="modules" name="position-7" />
+
+  <jdoc:include type="modules" name="position-8" />
+
+  <jdoc:include type="modules" name="position-9" />
+
+  <jdoc:include type="modules" name="position-10" />
   
 </div>
 
@@ -167,8 +173,6 @@
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/bootstrap.tab.js"></script>
 
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.drawsvg.js"></script>
-
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/default.js"></script>
 

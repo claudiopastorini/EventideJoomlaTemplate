@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Eventide - Map</name>
+    <creationDate>20/08/2016</creationDate>
+    <author>Claudio Pastorini</author>
+    <authorEmail>pastorini.claudio@gmail.com</authorEmail>
+    <authorUrl>http://www.example.com</authorUrl>
+    <copyright>Claudio Pastorini 2016</copyright>
+    <license>MIT</license>
+    <version>0.1.0</version>
+    <description>This module allows to add a map to the event place for Eventide template.</description>
+    <files>
+        <filename module="mod_eventide_map">mod_eventide_map.php</filename>
+        <filename>mod_eventide_map.xml</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field 
+                    name="place" 
+                    type="text" 
+                    hint="Sydney Exhibition Centre" 
+                    label="Place" 
+                    description="The place" />
+
+                <field 
+                    name="address" 
+                    type="text" 
+                    hint="Glebe Island - 41 James Craig Road Rozelle NSW 2039"
+                    label="Address" 
+                    description="The address" />
+
+                <field 
+                    name="latitude" 
+                    type="text" 
+                    hint="-33.867363"
+                    label="Latitude" 
+                    description="The address" />
+
+                <field 
+                    name="longitude" 
+                    type="text" 
+                    hint="151.183539"
+                    label="Longitude" 
+                    description="The address" />
+
+                <field 
+                    name="api_key" 
+                    type="text" 
+                    hint="YOUR_API_KEY_HERE"
+                    label="Google Maps API key" 
+                    description="The Google Maps API key to use" />
+
+                <field 
+                    name="marker" 
+                    type="media" 
+                    directory="" 
+                    label="Marker" 
+                    description="The map's marker" />
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
