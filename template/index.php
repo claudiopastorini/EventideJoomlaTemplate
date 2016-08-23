@@ -5,6 +5,22 @@
 
 <head>
   <jdoc:include type="head" />
+  
+  <?php
+    // Remove Scripts
+    $doc = JFactory::getDocument();
+    unset($doc->_scripts[JURI::root(true) . '/media/system/js/mootools-more.js']);
+    unset($doc->_scripts[JURI::root(true) . '/media/system/js/mootools-core.js']);
+    unset($doc->_scripts[JURI::root(true) . '/media/system/js/core.js']);
+    unset($doc->_scripts[JURI::root(true) . '/media/system/js/modal.js']);
+    unset($doc->_scripts[JURI::root(true) . '/media/system/js/caption.js']);
+    unset($doc->_scripts[JURI::root(true) . '/media/jui/js/jquery.js']);
+    unset($doc->_scripts[JURI::root(true) . '/media/jui/js/jquery-migrate.js']);
+    unset($doc->_scripts[JURI::root(true) . '/media/jui/js/jquery-noconflict.js']);
+    unset($doc->_scripts[JURI::root(true) . '/media/system/js/caption-uncompressed.js']);
+    unset($doc->_scripts[JURI::root(true) . '/media/jui/js/bootstrap.js']);
+  ?>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Eventide</title>
@@ -135,7 +151,7 @@
           <div class="col-10-l no-float-l">
             <h3 class="fs-4 h-white">Need Help?</h3>
             <p class="no-margin">
-              If you need help with something else, please see our fully searchable <a href="#">FAQs</a>. If you can't find what you're looking for, you can <a href="#">Contact Us</a>
+              If you need help with something else, please see our fully searchable <a class="footer-link" href="#">FAQs</a>. If you can't find what you're looking for, you can <a class="footer-link" href="#">Contact Us</a>
             </p>
           </div>
         </div>
@@ -155,7 +171,7 @@
   <div class="footer-copyright">
     <div class="container">
       <p>
-        Copyright 2015 Eventide
+        Copyright 2016 - <a class="footer-link" href="https://github.com/pincopallino93/EventideJoomlaTemplate" target="_blank">Eventide Joomla Template</a>
       </p>
     </div>
   </div>
