@@ -22,7 +22,7 @@ defined('_JEXEC') or die; ?>
     </div>
     <div class="col-6-l">
       <div class="video-responsive">
-        <iframe width="560" height="315" src="<?php echo 'https://www.youtube.com/embed/' .$video_code. ''; ?>" frameborder="0" allowfullscreen=""></iframe>
+        <iframe width="560" height="315" src="<?php echo 'https://www.youtube.com/embed/' .$video_code. '?rel=0'; ?>" frameborder="0" allowfullscreen=""></iframe>
       </div>
     </div>
   </div>
