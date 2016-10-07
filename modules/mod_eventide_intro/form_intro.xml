@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form enctype="multipart/form-data">
+	<fieldset name="profile" label="">
+		<field 
+			name="title" 
+			type="text" 
+			label="Title" 
+			description="The new's title" />
+		
+		<field 
+			name="description" 
+			type="textarea" 
+			cols="40" 
+			rows="8" 
+			label="Description" 
+			description="The new's description" />
+
+		<field 
+			name="image" 
+			type="media" 
+			directory="" 
+			label="Photo" 
+			description="The news' image" />
+
+        <field 
+            name="text_position" 
+            type="radio" 
+            default="1" 
+            label="Text position" 
+            description="The position of the text" 
+            class="btn-group">
+            <option value="0">Up</option>
+            <option value="1">Down</option>
+        </field>
+	</fieldset>
+</form>
