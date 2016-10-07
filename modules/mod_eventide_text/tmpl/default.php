@@ -6,12 +6,12 @@ defined('_JEXEC') or die; ?>
   <div class="clear pad-top-20 pad-bottom-20">
     <div class="col-12-l">
       <div class="col-11 no-float no-padding">
-        <h2 class="uppercase pad-bottom-10"><?php echo $title; ?></h2>
+        <h2 class="uppercase pad-bottom-10"><?php echo nl2br($title); ?></h2>
         <p class="fs-4">
-          <?php echo $subtitle; ?>
+          <?php echo nl2br($subtitle); ?>
         </p>
         <p>
-          <?php echo $body; ?>
+          <?php echo nl2br($body); ?>
         </p>
       </div>
     </div>

@@ -10,7 +10,7 @@ defined('_JEXEC') or die; ?>
       <div class="location-box pad-20">
         <h2 class="fs-6 strong"><?php echo $place; ?></h2>
           <address class="location">
-            <?php echo $address; ?>
+            <?php echo nl2br($address); ?>
           </address>
           <span class="block text-right">
             <a class="icon icon-right arrow-right uppercase" href="<?php echo 'https://www.google.it/maps/dir//' .$latitude. ',' .$longitude.''; ?>" target="_blank">Get directions</a>

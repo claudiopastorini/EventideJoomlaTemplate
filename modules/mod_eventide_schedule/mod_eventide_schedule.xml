@@ -42,6 +42,7 @@
                     rows="8" 
                     label="Body" 
                     default="Bla bla bla"
+                    filter="raw"
                     description="The schedule body" />
 
                 <field 

@@ -4,10 +4,10 @@ defined('_JEXEC') or die; ?>
 
   <div id="register" class="grey-row pad-top-60 pad-bottom-60">
     <div class="register-block pad-top-20 pad-bottom-20 container text-center">
-      <h2 class="uppercase pad-bottom-10"><?php echo $title; ?></h2>
+      <h2 class="uppercase pad-bottom-10"><?php echo nl2br($title); ?></h2>
       <div class="col-10-m no-float-m col-8-l no-float-l center">
         <p class="fs-4">
-          <?php echo $body; ?>
+          <?php echo nl2br($body); ?>
         </p>
       </div>
       <form action="<?php echo $post_url; ?>" class="register-form col-10-l col-8-xl no-float center">

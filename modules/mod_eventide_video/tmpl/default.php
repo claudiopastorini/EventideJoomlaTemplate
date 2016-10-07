@@ -5,12 +5,12 @@ defined('_JEXEC') or die; ?>
 <div class="promotional-block container">
   <div class="clear">
   <?php echo '<div class="col-5-l ' .(($text_position == 1) ? 'right-l' : 'left-l'). ' pad-top-30 pad-bottom-30 pad-top-0-l pad-bottom-0-l">'; ?>
-    <h2 class="uppercase pad-bottom-10"><?php echo $title; ?></h2>
+    <h2 class="uppercase pad-bottom-10"><?php echo nl2br($title); ?></h2>
     <p class="fs-4">
-      <?php echo $subtitle; ?>
+      <?php echo nl2br($subtitle); ?>
     </p>
     <p>
-      <?php echo $body; ?>
+      <?php echo nl2br($body); ?>
     </p>
     <?php 
       if ($channel_url != "https://www.youtube.com/channel/") {

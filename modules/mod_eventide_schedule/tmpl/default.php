@@ -76,12 +76,12 @@ defined('_JEXEC') or die; ?>
 <div class="clear pad-top-20 pad-bottom-20">
   <div class="col-6-l">
     <div class="col-11 no-float no-padding">
-      <h2 class="uppercase pad-bottom-10"><?php echo $title; ?></h2>
+      <h2 class="uppercase pad-bottom-10"><?php echo nl2br($title); ?></h2>
       <p class="fs-4">
-        <?php echo $subtitle; ?>
+        <?php echo nl2br($subtitle); ?>
       </p>
       <p>
-        <?php echo $body; ?>
+        <?php echo nl2br($body); ?>
       </p>
       <p>
         <a class="icon icon-left arrow-down uppercase" href="<?php echo $schedule_pdf; ?>">All schedule (PDF)</a>
@@ -115,13 +115,13 @@ defined('_JEXEC') or die; ?>
               foreach ($events[$key] as $event) {
                 echo '<div class="panel-heading">
                   <h4 class="panel-title">
-                    <a class="event-schedule-title' .(($sub_counter != 1) ? ' collapsed' : ''). '" data-toggle="collapse" data-parent="#event-' .$counter. '" href="#event-' .$counter. '-' .str_replace(array(' '), array('-'), mb_strtolower($event->place)). '">
+                    <a class="event-schedule-title' .(($sub_counter != 1) ? ' collapsed' : ''). '" data-toggle="collapse" data-parent="#event-' .$counter. '" href="#event-' .$counter. '-' .str_replace(array(' '), array('-'), mb_strtolower($event->place)). '-' .$sub_counter. '">
                       <span class="event-schedule-time">' .$event->start_time->format('G:i'). ' - ' .$event->end_time->format('G:i'). '</span>
                       <span class="event-schedule-name">' .$event->place. '</span>
                     </a>
                   </h4>
                 </div>
-                <div id="event-' .$counter. '-' .str_replace(array(' '), array('-'), mb_strtolower($event->place)). '" class="panel-collapse collapse' .(($sub_counter == 1) ? ' in' : ''). '">
+                <div id="event-' .$counter. '-' .str_replace(array(' '), array('-'), mb_strtolower($event->place)). '-' .$sub_counter. '" class="panel-collapse collapse' .(($sub_counter == 1) ? ' in' : ''). '">
                   <div class="panel-body">
                     ' .$event->description. '
                   </div>

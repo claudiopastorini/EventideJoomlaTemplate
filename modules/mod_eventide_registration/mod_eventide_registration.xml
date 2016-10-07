@@ -34,6 +34,7 @@
                     rows="8" 
                     label="Body" 
                     hint="Bla bla bla"
+                    filter="raw"
                     description="The registration body to show" />
 
                 <field 
